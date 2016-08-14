@@ -1,4 +1,4 @@
-package Pizza;
+package pizza;
 
 public abstract class Pizza {
     String name;
@@ -26,7 +26,7 @@ public abstract class Pizza {
 
     @Override
     public String toString() {
-        return "Pizza{" +
+        return "pizza{" +
                 "name='" + name + '\'' +
                 ", cost=" + cost +
                 '}';

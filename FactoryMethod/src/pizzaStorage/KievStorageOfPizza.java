@@ -1,6 +1,6 @@
-package PizzaStorage;
+package pizzaStorage;
 
-import Pizza.*;
+import pizza.*;
 
 public class KievStorageOfPizza extends GenerallStorageOfPizza {
     @Override

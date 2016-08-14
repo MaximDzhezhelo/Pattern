@@ -1,6 +1,6 @@
-package PizzaStorage;
+package pizzaStorage;
 
-import Pizza.Pizza;
+import pizza.Pizza;
 
 public abstract class GenerallStorageOfPizza {
     public Pizza orderPizza(String type) {
