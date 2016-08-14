@@ -6,4 +6,11 @@ public abstract class Ingredient {
     public void put() {
         System.out.println("put " + name);
     }
+
+    @Override
+    public String toString() {
+        return "Ingredient{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

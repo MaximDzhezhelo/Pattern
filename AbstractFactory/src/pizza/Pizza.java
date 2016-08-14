@@ -13,7 +13,8 @@ public abstract class Pizza {
     Vegiies vegiies[];
     int cost;
 
-    abstract void prepare();
+    public void prepare() {
+    }
 
     public void bake() {
         System.out.println("We bake");
@@ -29,6 +30,10 @@ public abstract class Pizza {
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
