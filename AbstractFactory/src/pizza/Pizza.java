@@ -13,8 +13,7 @@ public abstract class Pizza {
     Vegiies vegiies[];
     int cost;
 
-    public void prepare() {
-    }
+    public abstract void prepare();
 
     public void bake() {
         System.out.println("We bake");
