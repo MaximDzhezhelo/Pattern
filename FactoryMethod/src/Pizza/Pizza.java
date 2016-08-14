@@ -1,11 +1,11 @@
 package Pizza;
 
-public class Pizza {
-    protected String name;
-    protected String cost;
+public abstract class Pizza {
+    String name;
+    int cost;
 
     public void prepare() {
-        System.out.println("We prepare all ingredients for pizza");
+        System.out.println("We prepare " + name + " and " + cost + " of pizza");
     }
 
     public void bake() {
@@ -20,8 +20,15 @@ public class Pizza {
         System.out.println("Put in the box");
     }
 
+    public String getName() {
+        return name;
+    }
+
     @Override
     public String toString() {
-        return this.name + " " + this.cost;
+        return "Pizza{" +
+                "name='" + name + '\'' +
+                ", cost=" + cost +
+                '}';
     }
 }
