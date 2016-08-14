@@ -6,10 +6,10 @@ public class KievStorageOfPizza extends GenerallStorageOfPizza {
     @Override
     protected Pizza createPizza(String type) {
         Pizza pizza;
-        if (type.equals("AmerPizza")) {
-            return pizza = new AmerPizza();
-        } else if (type.equals("DonPizza")) {
-            return pizza = new DonPizza();
+        if (type.equals("CheesePizza")) {
+            return pizza = new CheesePizza();
+        } else if (type.equals("VegiicePizza")) {
+            return pizza = new VegiicePizza();
         }
         return null;
     }

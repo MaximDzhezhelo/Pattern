@@ -5,7 +5,7 @@ public abstract class Pizza {
     int cost;
 
     public void prepare() {
-        System.out.println("We prepare " + name + " and " + cost + " of pizza");
+        System.out.println("prepare " + name);
     }
 
     public void bake() {
